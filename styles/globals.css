@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fffcf4; 
+}
+
+.bg-gradient-btn {
+  background: hsla(300, 46%, 70%, 1);
+  background: linear-gradient(90deg, hsla(300, 46%, 70%, 1) 0%, hsla(246, 89%, 62%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(300, 46%, 70%, 1) 0%, hsla(246, 89%, 62%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(300, 46%, 70%, 1) 0%, hsla(246, 89%, 62%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D68FD6", endColorstr="#5746F4", GradientType=1 );
+}
+
+.primary-bg-color {
+  background-color: #D68FD6;
+}
+
+.background-img {
+  background-image: url("/public/images/imagenHero-removebg.png");
+}
