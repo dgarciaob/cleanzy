@@ -51,7 +51,7 @@ const Hero = () => {
           className='w-full' 
         />
 
-        <p className='max-[639px]:mt-0 max-[639px]:mb-5 
+        <p className='max-[639px]:mt-0 max-[639px]:mb-8 
           sm:max-[767px]:text-center sm:max-[767px]:mt-0 sm:max-[767px]:mb-8
           md:max-[1023px]:absolute md:max-[1023px]:text-2l md:max-[1023px]:max-w-[300px] md:max-[1023px]:top-60 md:max-[1023px]:left-10
           lg:max-[1279px]:absolute lg:max-[1279px]:text-2xl lg:max-[1279px]:max-w-[500px] lg:max-[1279px]:top-72 lg:max-[1279px]:left-10 
