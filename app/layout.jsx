@@ -1,18 +1,18 @@
-import '@styles/globals.css';
-import Nav from '@components/Nav';
-import Footer from '@components/Footer';
-import Hero from '@components/Hero';
+import "@styles/globals.css";
+import Nav from "@components/Nav";
+import Footer from "@components/Footer";
+import Hero from "@components/Hero";
 
 export const metadata = {
   title: "Cleanzy",
-  description: "Brillando en cada rincón."
-}
+  description: "Brillando en cada rincón.",
+};
 
-const RootLayout = ({children}) => {
+const RootLayout = ({ children }) => {
   return (
-    <html lang='en'>
+    <html lang="en">
       <body>
-        <main className='app'>
+        <main className="app">
           <Nav />
           <Hero />
           {children}
@@ -20,7 +20,7 @@ const RootLayout = ({children}) => {
         </main>
       </body>
     </html>
-  )
-}
+  );
+};
 
-export default RootLayout
+export default RootLayout;
